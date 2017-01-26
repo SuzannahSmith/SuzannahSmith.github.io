@@ -229,8 +229,8 @@ a:hover {
   background: #81c141;
   background: -webkit-linear-gradient(legacy-direction(#41c19e), #81c141);
   background: linear-gradient(#41c19e, #81c141);
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+  /*opacity: 0.2;*/
+  /*filter: alpha(opacity=20);*/
 }
 #fh5co-page-title .text {
   position: relative;
@@ -300,11 +300,11 @@ a:hover {
   outline: none;
 }
 #fh5co-hero .overlay {
-  background: #81c141;
-  background: -webkit-linear-gradient(legacy-direction(#41c19e), #81c141);
-  background: linear-gradient(#41c19e, #81c141);
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  background: #4B29D1;
+  background: -webkit-linear-gradient(legacy-direction(#E798E7), #4B29D1);
+  background: linear-gradient(#E798E7, #4B29D1);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
   position: absolute;
   top: 0;
   left: 0;
@@ -1081,7 +1081,7 @@ a:hover {
   top: 0;
   bottom: 0;
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
 }
 .fh5co-call-to-action .fh5co-call-to-action-wrap {
   position: relative;
