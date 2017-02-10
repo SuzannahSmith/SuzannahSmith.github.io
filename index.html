@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html ng-app="suzieApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html ng-app="suzieApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html ng-app="suzieApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html ng-app="suzieApp" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Suzannah Smith</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-    <meta name="author" content="FREEHTML5.CO" />
+  <meta name="description" content="Suzannah Smith's Portfolio" />
+    <meta name="keywords" content="Suzannah, Smith, student, computer, science, university, resume, portfolio" />
+    <meta name="author" content="Suzannah Smith" />
 
     <!-- Facebook and Twitter integration -->
   <meta property="og:title" content=""/>
@@ -53,7 +53,7 @@
 
 </head>
 
-<body class="fh5co-outer">
+<body class="fh5co-outer" ng-controller="mainController">
   <header id="fh5co-header" role="banner">
     
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -61,7 +61,7 @@
           <div class="navbar-header"> 
             <!-- Mobile Toggle Menu Button -->
             <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-            <a class="navbar-brand" href="index.html">Suzannah Smith</a>
+            <a class="navbar-brand" href="index.html">{{ title }}</a>
           </div>
           <div id="fh5co-navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -370,9 +370,14 @@
     <script src="js/easyResponsiveTabs.js"></script>
     <!-- FastClick for Mobile/Tablets -->
     <script src="js/fastclick.js"></script>
+	
+	<!-- AngularJs -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
 
     <!-- Main JS -->
     <script src="js/main.js"></script>
+	<script src="app.js"></script>
 
 </body>
 </html>
