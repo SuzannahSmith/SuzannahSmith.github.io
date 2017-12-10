@@ -17,7 +17,8 @@ suzieApp.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('home', {
             url: '/home',
-            templateUrl: 'app/home/home.html'
+            templateUrl: 'app/home/home.html',
+            controller: 'homeController'
         })
         .state('experience', {
             url: '/experience',

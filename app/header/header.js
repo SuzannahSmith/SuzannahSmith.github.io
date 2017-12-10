@@ -11,7 +11,6 @@ angular.module('suzieApp')
 	$scope.changeState = function(stateName) {
 		$state.transitionTo(stateName);
 		$scope.currentState = stateName;
-		console.log($scope.currentState);
 	};
 
 	$scope.isCurrentState = function(stateName) {

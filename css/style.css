@@ -3,6 +3,17 @@
   font-weight: bold;
 }
 
+.social-icon {
+  padding: 5px;
+  font-size: 30px;
+}
+
+[ng-click],
+[data-ng-click],
+[x-ng-click] {
+    cursor: pointer;
+}
+
 
 /** END OF MY CSS *//
 
