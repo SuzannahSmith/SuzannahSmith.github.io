@@ -21,11 +21,18 @@ suzieApp.config(function($stateProvider, $urlRouterProvider) {
         })
         .state('experience', {
             url: '/experience',
-            templateUrl: 'app/experience/experience.html'     
+            templateUrl: 'app/experience/experience.html',
+            controller: 'experienceController'
         })
         .state('projects', {
             url: '/projects',
-            templateUrl: 'app/projects/projects.html'     
+            templateUrl: 'app/projects/projects.html',   
+            controller: 'projectsController'
+        })
+        .state('travel', {
+            url: '/travel',
+            templateUrl: 'app/travel/travel.html',
+            controller: 'travelController'     
         });
 });
 
