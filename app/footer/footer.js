@@ -4,6 +4,6 @@ angular.module('suzieApp')
 })
 .directive('myFooter', function() {
 	return {
-		templateUrl: "footer/my-footer.html"
+		templateUrl: "app/footer/my-footer.html"
 	};
 });

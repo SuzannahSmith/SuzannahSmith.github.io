@@ -4,6 +4,6 @@ angular.module('suzieApp')
 })
 .directive('myHeader', function() {
 	return {
-		templateUrl: "header/my-header.html"
+		templateUrl: "app/header/my-header.html"
 	};
 });
