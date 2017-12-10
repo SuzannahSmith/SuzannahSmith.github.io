@@ -26,7 +26,6 @@ angular.module('suzieApp')
 				}
 			}
 		}
-		console.log('haha', $scope.currentState);
 	}
 }])
 .directive('myHeader', function() {
