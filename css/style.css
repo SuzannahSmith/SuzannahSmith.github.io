@@ -14,6 +14,14 @@
     cursor: pointer;
 }
 
+#fh5co-hero.fh5co-hero-short {
+  max-height: 400px;
+  padding: 4em 0em 2em 0em;
+}
+
+#fh5co-hero.fh5co-hero-short .text {
+  padding: 3em; 
+}
 
 /** END OF MY CSS *//
 
