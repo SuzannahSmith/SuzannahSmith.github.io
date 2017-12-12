@@ -15,16 +15,16 @@
         <div class="col-md-3" id="fh5co-sidebar">
           <div class="fh5co-side-block">
             <h3>At a Glance</h3>
-            <p>If you want to know what Suzannah's been up to, you have come to the right place. Here is all you need to know.</p>
+            <p>If you want to know what I've been up to, you have come to the right place. Here is all you need to know.</p>
           </div>
           <div class="fh5co-side-block">
             <h3>Categories</h3>
             <ul class="fh5co-links">
               <li><a ng-click="scrollToElement('cv-education', 80)">Education</a></li>
               <li><a ng-click="scrollToElement('cv-work', 80)">Work Experience</a></li>
-              <li><a href="#">Volunteer Experience</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Awards and Scholarships</a></li>
+              <li><a ng-click="scrollToElement('cv-volunteer', 80)">Volunteer Experience</a></li>
+              <li><a ng-click="scrollToElement('cv-skills', 80)">Skills</a></li>
+              <li><a ng-click="scrollToElement('cv-awards', 80)">Awards and Scholarships</a></li>
             </ul>
           </div>
         </div>
@@ -40,10 +40,10 @@
           <div class="row" id="cv-education">
             <div class="col-md-12"><h4>Education</h4></div>
             <div class="col-md-6">
-              <p>After graduating from Leo Hayes High School, Suzannah went on to study Computer Science at the University of New Brunswick. She is currently in her fourth year, and has a cumulative GPA of 4.3 (out of 4.3).</p>
+              <p>After graduating from Leo Hayes High School, I went on to study Computer Science at the University of New Brunswick. I am currently in my fourth year, and have a cumulative GPA of 4.3 (out of 4.3).</p>
             </div>
             <div class="col-md-6">
-              <p>Her favorite courses so far have been Intro to Artificial Intelligence, Natural Language Processing, and Net-centic Computing. She also enjoys studying languages, like German, French, Greek, and Spanish.</p>
+              <p>My favorite courses so far have been Intro to Artificial Intelligence, Natural Language Processing, and Net-centic Computing. I also enjoy studying languages, like German, French, Greek, and Spanish.</p>
             </div>
           </div>
 
@@ -69,23 +69,69 @@
           <div class="row" id="cv-work">
             <div class="col-md-12"><h4>Work Experience</h4></div>
             <div class="col-md-12">
-              <p>July - August 2013: Suzannah's first official job was working at a day camp for kids in Quebec. This was part of the YMCA's Summer Work Student Exchange six-week program. It was a great opportunity to explore Quebec, practice French, and earn a good paycheck.</p>
-              <p> June 2014 - April 2015: The summer after she graduated from high school she began working at a Tim Hortons in Fredericton. She continued working there throughout her first year of university, but then moved on to the Computer Science co-op program.</p>
-              <p> May - August 2015: Her first Computer Science internship was at Professional Quality Assurance (PQA) in Fredericton. She worked there from May to August 2015. Some of her tasks included manually testing websties, testing the content of video-based courses, and writing detailed reviews and bug reports.<p>
-              <p>Sept - Dec 2015: After returning to school, Suzannah worked as a tutor for first year students. She tutored in Java, Intro to Computer Science, and Discrete Mathmatics courses. </p>
-              <p>Jan-April 2016: For her second work term, Suzannah moved to Charlottetown, PEI to work at SpryPoint. She really enjoyed learning web development, and worked on the backend and frontend of several web apps. She also performed some database management.</p>
-              <p>May - August 2016: While doing a summer study term back in Fredericton, Suzannah was hired by Natalia Stakhanova to develop the curriculum for a web design class for kids. She designed the course outline and materials for 10 two-hour classes.</p>
-              <p>Sept - Dec 2016: Suzannah completed her third work term at Eigen Innovations in Fredericton. She focused mainly on building new features for the front end of their AngularJS web app. Working with the other members of the frontend team, she researched best practices and planned the major refactoring of the app. She also set up automated testing using Browserstack, and wrote unit tests.</p>
-              <p>At the same time, she helped teach a weekly web design class to a small group of young girls, with the materials that she designed. It was fun to see girls getting excited about the things they could build with technology. At the end of the course, each student had completed their own simple HTML and CSS website.</p>
-              <p>Jan - April 2017: Back at school, for her 5th semester.
-              <p>May - August 2017: Suzannah had the amazing opportunity to travel to Germany as part of the RISE Germany scholarship program. She performed research on virtual agents at the Hochschule Bonn-Rhein-Sieg in Sankt Augustin, Germany. Part of her responsibilities included building a virtual reality scene, configuring and recording eye-tracking data, and conducting a prelimenary user study. </p>
-              <p>Sept 2017 - Present: Suzannah is currently finishing up her 6th study semester at UNB. </p>
+              <p><i>July - August 2013:</i> My first official job was working at a day camp for kids in Quebec. This was part of the YMCA's Summer Work Student Exchange six-week program. It was a great opportunity to explore Quebec, practice French, and earn a good paycheck.</p>
+              <p><i>June 2014 - April 2015:</i> The summer after I graduated from high school I began working at a Tim Hortons in Fredericton. I continued working there throughout my first year of university, but then moved on to the Computer Science co-op program.</p>
+              <p><i>May - August 2015:</i> My first Computer Science internship was at Professional Quality Assurance (PQA) in Fredericton. I worked there from May to August 2015. Some of my tasks included manually testing websties, testing the content of video-based courses, and writing detailed reviews and bug reports.<p>
+              <p><i>Sept - Dec 2015:</i> After returning to school, I worked as a tutor for first year students. I tutored in Java, Intro to Computer Science, and Discrete Mathmatics courses. </p>
+              <p><i>Jan-April 2016:</i> For my second work term, I moved to Charlottetown, PEI to work at SpryPoint. I really enjoyed learning web development there, and worked on the backend and frontend of several web apps. I also performed some database management tasks.</p>
+              <p><i>May - August 2016:</i> While doing a summer study term back in Fredericton, I was hired by Natalia Stakhanova to develop the curriculum for a web design class for kids. I designed the course outline and materials for ten two-hour classes.</p>
+              <p><i>Sept - Dec 2016:</i> I completed my third work term at Eigen Innovations in Fredericton. I focused mainly on building new features for the front end of their AngularJS web app. Working with the other members of the frontend team, I researched best practices and planned the major refactoring of the app. I also set up automated testing using Browserstack, and wrote unit tests.</p>
+              <p>At the same time, I helped teach a weekly web design class to a small group of young girls, with the materials that I designed. It was fun to see girls getting excited about the things they could build with technology. At the end of the course, each student had completed their own simple HTML and CSS website.</p>
+              <p><i>Jan - April 2017:</i> Back at school, for my 5th semester.
+              <p><i>May - August 2017:</i> I had the amazing opportunity to travel to Germany as part of the RISE Germany scholarship program. I performed research on virtual agents at the Hochschule Bonn-Rhein-Sieg in Sankt Augustin, Germany. Part of my responsibilities included building a virtual reality scene, configuring and recording eye-tracking data, and conducting a prelimenary user study. </p>
+              <p>Sept 2017 - Present: I am currently finishing up my 6th study semester at UNB. </p>
             </div>
           </div>
 
+
+
+          <div class="fh5co-spacer fh5co-spacer-sm"></div>
+
+          <div class="row" id="cv-volunteer">
+            <div class="col-md-12"><h4>Volunteer Experience</h4></div>
+            <div class="col-md-12">
+              <p><i>2013 - Present:</i> I have been a Sunday School teacher at Fredericton Gospel Hall ever since my last year of high school. I develop my own course materials, and teach a class of 3-5 year olds.</p>
+
+              <p><i>Sept - Dec 2015, Jan - April 2017:</i> During a few of my school terms, I was a Peer Mentor for the faculty of Computer Science. This involves helping first year students transition to university life and taking a leadership role in social events. I enjoyed the chance to get to know more of my classmates, and to help students with any difficulties they had.</p>
+            </div>
+          </div>
+
+
+          <div class="fh5co-spacer fh5co-spacer-sm"></div>
+
+          <div class="row" id="cv-skills">
+            <div class="col-md-12"><h4>Technical Skills</h4></div>
+            <div class="col-md-12">
+              <table class="table">
+                <tr ng-repeat="skill in skills">
+                  <td class="col-xs-3">{{skill[0]}}</td>
+                  <td class="col-xs-9">{{skill[1]}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="fh5co-spacer fh5co-spacer-sm"></div>
+          
+          <div class="row" id="cv-awards">
+            <div class="col-md-12"><h4>Awards and Achievements</h4></div>
+            <div class="col-md-12">
+              <table class="table table-striped">
+                <tr ng-repeat="award in awards">
+                  <td valign="top">{{award[0]}}</td>
+                  <td valign="top">{{award[1]}}</td>
+                <tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="fh5co-spacer fh5co-spacer-sm"></div>
+          
           <div class="row">
             <div class="col-md-12"><h6>Last Updated: December 2017</h6></div>
           </div>
+
+
         </div>
       </div>
     </div>
