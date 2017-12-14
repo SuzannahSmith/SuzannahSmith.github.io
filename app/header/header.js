@@ -3,7 +3,7 @@ angular.module('suzieApp')
 	$scope.title = 'Suzannah Smith';
 
 	$scope.states = {'experience': 'Experience', 
-					'projects': 'Personal Projects', 
+					// 'projects': 'Personal Projects', 
 					'travel': 'Travel'};
 
 	$scope.currentState = getCurrentState();
