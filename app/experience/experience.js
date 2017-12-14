@@ -32,8 +32,6 @@ angular.module('suzieApp')
 			['2017-2018', 'UNB Scholarship']
 		];
 
-		console.log($scope.awards);
-
    		$scope.scrollToElement = function(elementId, offset){
    			scrollService(elementId, offset);
     	}
