@@ -1,8 +1,7 @@
-# portfolio
-A website portfolio 
+# Suzannah Smith
+My personal website portfolio
 
-
-TITLE: 
+TITLE of template: 
 BUILD - Responsive Free HTML5 template Bootstrap
 
 AUTHOR:
@@ -50,7 +49,3 @@ https://github.com/ftlabs/fastclick
 
 Google Map API
 https://developers.google.com/maps/?hl=en
-
-
-
-* Don't forget to share it with your friends. Thanks! :)
