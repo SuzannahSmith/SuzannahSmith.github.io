@@ -2,9 +2,9 @@ angular.module('suzieApp')
 .controller('headerController', ['$scope', '$state', function($scope, $state) {
 	$scope.title = 'Suzannah Smith';
 
-	$scope.states = {'experience': 'Experience', 
+	$scope.states = {'experience': 'Experience'};
 					// 'projects': 'Personal Projects', 
-					'travel': 'Travel'};
+					// 'travel': 'Travel'
 
 	$scope.currentState = getCurrentState();
 
